@@ -1,0 +1,87 @@
+// ========================================
+// MEGAGYM — TYPOGRAPHY
+// ========================================
+
+@use "../abstracts/variables" as *;
+
+
+// ----------------------------------------
+// BASE
+// ----------------------------------------
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: $text-base;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-base;
+}
+
+
+// ----------------------------------------
+// HEADINGS
+// ----------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  line-height: $line-height-heading;
+  font-weight: $font-weight-bold;
+}
+
+h1 {
+  font-size: $heading-1;
+}
+
+h2 {
+  font-size: $heading-2;
+}
+
+h3 {
+  font-size: $heading-3;
+}
+
+
+// ----------------------------------------
+// TEXT
+// ----------------------------------------
+
+p {
+  font-size: $text-base;
+  line-height: $line-height-base;
+}
+
+
+// ----------------------------------------
+// LINKS
+// ----------------------------------------
+
+a {
+  font-family: inherit;
+}
+
+
+// ----------------------------------------
+// RESPONSIVE TYPOGRAPHY
+// ----------------------------------------
+
+@media (max-width: $break-sm) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}

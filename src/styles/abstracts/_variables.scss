@@ -1,0 +1,91 @@
+// ========================================
+// MEGAGYM — VARIABLES
+// ========================================
+
+
+// ----------------------------------------
+// COLORES
+// ----------------------------------------
+
+$color-primary: #e0d24a;
+$color-dark: #1d1d1d;
+$color-gray: #2e2e2e;
+$color-light: #ffffff;
+
+$color-text: #eaeaea;
+$color-muted: #888888;
+
+
+// ----------------------------------------
+// TIPOGRAFÍA
+// ----------------------------------------
+
+$font-primary: "Montserrat", sans-serif;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+
+// ----------------------------------------
+// TAMAÑOS DE TEXTO
+// ----------------------------------------
+
+$text-base: 16px;
+
+$heading-1: 48px;
+$heading-2: 32px;
+$heading-3: 24px;
+
+
+// ----------------------------------------
+// INTERLINEADO
+// ----------------------------------------
+
+$line-height-base: 1.6;
+$line-height-heading: 1.2;
+
+
+// ----------------------------------------
+// ESPACIADOS
+// ----------------------------------------
+
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 16px;
+$space-4: 24px;
+$space-5: 32px;
+$space-6: 48px;
+$space-7: 64px;
+$space-8: 96px;
+
+
+// ----------------------------------------
+// BREAKPOINTS
+// ----------------------------------------
+
+$break-xs: 480px;
+$break-sm: 768px;
+$break-md: 1024px;
+$break-lg: 1280px;
+$break-xl: 1440px;
+
+
+// ----------------------------------------
+// BORDES
+// ----------------------------------------
+
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 16px;
+$radius-xl: 24px;
+$radius-round: 50%;
+
+
+// ----------------------------------------
+// TRANSICIONES
+// ----------------------------------------
+
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;

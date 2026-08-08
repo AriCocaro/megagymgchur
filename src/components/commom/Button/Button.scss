@@ -1,0 +1,63 @@
+@use "../../../styles/abstracts/variables" as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;
+  padding: 0 $space-4;
+
+  border-radius: $radius-sm;
+
+  font-family: $font-primary;
+  font-size: $text-base;
+  font-weight: $font-weight-bold;
+
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    background-color $transition-normal,
+    color $transition-normal,
+    border-color $transition-normal,
+    transform $transition-fast;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+
+// ----------------------------------------
+// PRIMARY
+// ----------------------------------------
+
+.button--primary {
+  background-color: $color-primary;
+  color: $color-dark;
+
+  &:hover {
+    background-color: $color-light;
+  }
+}
+
+
+// ----------------------------------------
+// SECONDARY
+// ----------------------------------------
+
+.button--secondary {
+  background-color: $color-light;
+  color: $color-dark;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}

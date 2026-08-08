@@ -1,0 +1,23 @@
+// ========================================
+// MEGAGYM — GLOBAL STYLES
+// ========================================
+
+@use "./abstracts/variables" as *;
+@use "./abstracts/mixins";
+
+@use "./base/reset";
+@use "./base/typography";
+
+
+// ----------------------------------------
+// HTML / BODY
+// ----------------------------------------
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color-dark;
+  color: $color-text;
+}

@@ -1,0 +1,22 @@
+@use "../../../styles/abstracts/variables" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding-left: $space-4;
+  padding-right: $space-4;
+
+  @include tablet {
+    padding-left: $space-5;
+    padding-right: $space-5;
+  }
+
+  @include desktop {
+    padding-left: $space-6;
+    padding-right: $space-6;
+  }
+}

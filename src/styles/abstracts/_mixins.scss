@@ -1,0 +1,30 @@
+@use "./variables" as *;
+
+
+// ----------------------------------------
+// RESPONSIVE
+// ----------------------------------------
+
+@mixin mobile {
+  @media (max-width: $break-sm) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $break-sm) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $break-md) {
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media (min-width: $break-lg) {
+    @content;
+  }
+}

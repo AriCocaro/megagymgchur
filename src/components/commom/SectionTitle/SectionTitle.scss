@@ -1,0 +1,74 @@
+@use "../../../styles/abstracts/variables" as *;
+
+.section-title {
+  max-width: 700px;
+
+  // ----------------------------------------
+  // EYEBROW
+  // ----------------------------------------
+
+  &__eyebrow {
+    display: block;
+
+    margin-bottom: $space-2;
+
+    color: $color-primary;
+
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+
+  // ----------------------------------------
+  // TITLE
+  // ----------------------------------------
+
+  &__title {
+    margin: 0;
+
+    color: $color-light;
+
+    font-size: $heading-2;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-heading;
+  }
+
+
+  // ----------------------------------------
+  // DESCRIPTION
+  // ----------------------------------------
+
+  &__description {
+    margin-top: $space-3;
+
+    color: $color-muted;
+
+    font-size: $text-base;
+    line-height: $line-height-base;
+  }
+
+
+  // ----------------------------------------
+  // ALIGNMENT
+  // ----------------------------------------
+
+  &--center {
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+  }
+
+
+  // ----------------------------------------
+  // RESPONSIVE
+  // ----------------------------------------
+
+  @media (max-width: $break-sm) {
+    &__title {
+      font-size: $heading-3;
+    }
+  }
+}
